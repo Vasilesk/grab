@@ -549,7 +549,7 @@ class FormExtension(object):
     # New method: set_input_by(id=None, number=None, xpath=None)
 
     def submit(self, submit_name=None, make_request=True,
-               url=None, extra_post=None, remove_from_post=None):
+               url=None, extra_post=None, remove_from_post=[]):
         """
         Submit default form.
 
